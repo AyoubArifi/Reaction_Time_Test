@@ -1,4 +1,4 @@
-# Reaction Time Test (Python & Pygame)
+# Reaction Time Test
 
 A Python-based reaction time test built with Pygame.\
 The task presents visual stimuli after randomized delays and records
@@ -66,7 +66,6 @@ Inside `reaction_time_test.py`:
 
 ## Requirements
 
--   Python 3.x\
 -   Pygame
 
 ## License
