@@ -7,16 +7,7 @@ The script collects participant name, handles early key presses,
 provides on-screen feedback, and exports all reaction times
 to a structured CSV file for further analysis.
 
-## Features
 
--   Collects participant name before starting the task\
--   Random delay (1--3 seconds) before each stimulus\
--   Red circle stimulus displayed in fullscreen\
--   Measures reaction times with high precision\
--   Handles early key presses\
--   40 trials by default (can be changed)\
--   Saves results into a structured CSV file\
--   Clean, minimal interface using Pygame
 
 ## How to Run the Experiment
 
@@ -54,15 +45,6 @@ It contains:
   2       0.389
   ...     ...
 
-## Settings You Can Modify
-
-Inside `reaction_time_test.py`:
-
-  Variable     Purpose              Default
-  ------------ -------------------- ----------
-  MAX_TRIALS   Number of trials     40
-  radius       Circle size          80
-  delay        Random delay range   1--3 sec
 
 ## Requirements
 
