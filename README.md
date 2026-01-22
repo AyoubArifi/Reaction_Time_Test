@@ -8,29 +8,6 @@ provides on-screen feedback, and exports all reaction times
 to a structured CSV file for further analysis.
 
 
-
-## How to Run the Experiment
-
-### 1. Install Python dependencies
-
-    pip install pygame
-
-### 2. Run the script
-
-    python reaction_time_test.py
-
-## How the Experiment Works
-
-  Stage                 Description
-  --------------------- -----------------------------------------------
-  **1. Name Input**     Participant enters their name\
-  **2. Start Screen**   Press SPACE to begin\
-  **3. Random Delay**   Screen stays white for 1--3 seconds\
-  **4. Stimulus**       A red circle appears in the center\
-  **5. Response**       Participant presses SPACE as fast as possible\
-  **6. Feedback**       Reaction time displayed for 0.5 seconds\
-  **7. Repeat**         Runs for 40 trials(can be changed in the via code)
-
 ## Output: CSV File
 
 After the experiment ends, a CSV file is created:
@@ -48,7 +25,7 @@ It contains:
 
 ## Requirements
 
--   Pygame
+-   Pygame 
 
 ## License
 
